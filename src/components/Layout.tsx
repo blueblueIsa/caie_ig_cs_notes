@@ -81,9 +81,14 @@ export function Layout() {
                   </button>
                 </>
               ) : (
+                <div className="flex items-center space-x-4">
                 <Link to="/login">
                   <Button variant="primary">Sign In</Button>
                 </Link>
+                <Link to="/register">
+                  <Button variant="primary">Sign Up</Button>
+                </Link>
+              </div>
               )}
             </div>
           </div>
